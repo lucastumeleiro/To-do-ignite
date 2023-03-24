@@ -1,0 +1,38 @@
+.wrapper {
+	display: flex;
+	width: 100%;
+	gap: 8px;
+}
+
+@media (max-width: 425px) {
+	html {
+		font-size: 87.5%;
+	}
+	.wrapper {
+		margin: 0 1rem;
+	}
+}
+
+.inputItem {
+	width: 100%;
+	padding: 1rem;
+	border-radius: 8px;
+	border: 1px solid var(--gray-700);
+
+	background: var(--gray-500);
+	color: var(--gray-500);
+}
+
+.newItem {
+	display: flex;
+	align-items: center;
+	max-width: 90px;
+	gap: 8px;
+	padding: 1rem;
+	border-radius: 8px;
+	border: 0;
+
+	background: var(--blue-dark);
+	color: var(--white);
+	font-weight: bold;
+}

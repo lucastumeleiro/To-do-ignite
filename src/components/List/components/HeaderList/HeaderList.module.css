@@ -1,0 +1,38 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 64px;
+	padding-bottom: 1.5rem;
+	border-bottom: 2px solid var(--gray-400);
+}
+
+.taskCreated {
+	gap: 8px;
+	color: var(--blue);
+	font-weight: bold;
+	margin-right: 8px;
+}
+.taskCreatedNumber {
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: var(--white);
+	padding: 2px 8px;
+	background: var(--gray-400);
+	border-radius: 50%;
+}
+
+.taskCompleted {
+	color: var(--purple);
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+.taskCompletedNumber {
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: var(--white);
+	padding: 2px 8px;
+	background: var(--gray-400);
+	border-radius: 50%;
+}
