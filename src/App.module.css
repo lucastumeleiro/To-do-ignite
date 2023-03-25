@@ -10,4 +10,7 @@
 	html {
 		font-size: 87.5%;
 	}
+	.main {
+		margin: -1.8rem 1rem;
+	}
 }

@@ -20,7 +20,7 @@
 	border: 1px solid var(--gray-700);
 
 	background: var(--gray-500);
-	color: var(--gray-500);
+	color: var(--white);
 }
 
 .newItem {
